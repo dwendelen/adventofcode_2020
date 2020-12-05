@@ -14,3 +14,6 @@ add_executable(day03_b day03/day03_b/main.cpp util.cpp)
 
 add_executable(day04_a day04/day04_a/main.cpp util.cpp)
 add_executable(day04_b day04/day04_b/main.cpp util.cpp)
+
+add_executable(day05_a day05/day05_a/main.cpp util.cpp)
+add_executable(day05_b day05/day05_b/main.cpp util.cpp)
