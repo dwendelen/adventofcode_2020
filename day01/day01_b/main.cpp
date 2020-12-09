@@ -4,7 +4,7 @@
 
 
 int main() {
-    std::vector<int> integers = readIntegers("day01/input.txt");
+    std::vector<int64_t> integers = readIntegers("day01/input.txt");
 
     for (int i1: integers) {
         for (int i2: integers) {

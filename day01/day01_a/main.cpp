@@ -3,7 +3,7 @@
 #include "../../util.hpp"
 
 int main() {
-    std::vector<int> integers = readIntegers("day01/input.txt");
+    std::vector<int64_t> integers = readIntegers("day01/input.txt");
 
     bool found[2020];
     for (int i = 0; i < 2020; i++) {
