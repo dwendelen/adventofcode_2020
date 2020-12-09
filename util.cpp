@@ -2,15 +2,15 @@
 
 #include <fstream>
 
-std::vector<int> readIntegers(const std::string& fileName) {
+std::vector<int64_t> readIntegers(const std::string& fileName) {
     std::ifstream file(fileName);
     if(!file.good()) {
         throw std::runtime_error(fileName + " is not a valid file");
     }
-    std::vector<int> integers;
+    std::vector<int64_t> integers;
     std::string line;
     while(std::getline(file, line)) {
-        integers.push_back(std::stoi(line));
+        integers.push_back(std::stol(line));
     }
     file.close();
 
