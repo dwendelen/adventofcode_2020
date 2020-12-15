@@ -39,8 +39,8 @@ add_executable(day11_b day11/day11_b/main.cpp util.cpp)
 add_executable(day12_a day12/day12_a/main.cpp util.cpp)
 add_executable(day12_b day12/day12_b/main.cpp util.cpp)
 
-#add_executable(day13_a day13/day13_a/main.cpp util.cpp)
-#add_executable(day13_b day13/day13_b/main.cpp util.cpp)
+add_executable(day13_a day13/day13_a/main.cpp util.cpp)
+add_executable(day13_b day13/day13_b/main.cpp util.cpp)
 
 #add_executable(day14_a day14/day14_a/main.cpp util.cpp)
 #add_executable(day14_b day14/day14_b/main.cpp util.cpp)
