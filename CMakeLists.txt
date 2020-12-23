@@ -53,24 +53,24 @@ set(CMAKE_CXX_STANDARD 14)
 #
 #add_executable(day17_a day17/day17_a/main.cpp util.cpp)
 #add_executable(day17_b day17/day17_b/main.cpp util.cpp)
-
-add_executable(day18_a day18/day18_a/main.cpp util.cpp)
-add_executable(day18_b day18/day18_b/main.cpp util.cpp)
-
-add_executable(day19_a day19/day19_a/main.cpp util.cpp)
-add_executable(day19_b day19/day19_b/main.cpp util.cpp)
-
-add_executable(day20_a day20/day20_a/main.cpp util.cpp)
-add_executable(day20_b day20/day20_b/main.cpp util.cpp)
-
-add_executable(day21_a day21/day21_a/main.cpp util.cpp)
-add_executable(day21_b day21/day21_b/main.cpp util.cpp)
+#
+#add_executable(day18_a day18/day18_a/main.cpp util.cpp)
+#add_executable(day18_b day18/day18_b/main.cpp util.cpp)
+#
+#add_executable(day19_a day19/day19_a/main.cpp util.cpp)
+#add_executable(day19_b day19/day19_b/main.cpp util.cpp)
+#
+#add_executable(day20_a day20/day20_a/main.cpp util.cpp)
+#add_executable(day20_b day20/day20_b/main.cpp util.cpp)
+#
+#add_executable(day21_a day21/day21_a/main.cpp util.cpp)
+#add_executable(day21_b day21/day21_b/main.cpp util.cpp)
 
 add_executable(day22_a day22/day22_a/main.cpp util.cpp)
 add_executable(day22_b day22/day22_b/main.cpp util.cpp)
 
-#add_executable(day23_a day23/day23_a/main.cpp util.cpp)
-#add_executable(day23_b day23/day23_b/main.cpp util.cpp)
+add_executable(day23_a day23/day23_a/main.cpp util.cpp)
+add_executable(day23_b day23/day23_b/main.cpp util.cpp)
 
 #add_executable(day24_a day24/day24_a/main.cpp util.cpp)
 #add_executable(day24_b day24/day24_b/main.cpp util.cpp)
